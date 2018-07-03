@@ -1,6 +1,12 @@
 [package]
 name = "fasta-sort"
 version = "0.1.0"
-authors = ["Derek Morr <derek.morr.test@gmail.com>"]
+authors = ["Derek Morr <morr.derek@gmail.com>"]
 
 [dependencies]
+seq_io = "0.2.4"
+rayon = "1.0.1"
+
+[profile.release]
+opt-level = 3
+lto = true
