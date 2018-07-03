@@ -1,0 +1,6 @@
+[package]
+name = "fasta-sort"
+version = "0.1.0"
+authors = ["Derek Morr <derek.morr.test@gmail.com>"]
+
+[dependencies]
